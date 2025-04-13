@@ -59,15 +59,41 @@ list1.remove('berries')
 
 #remove specifird index
 list1.pop(5)
-print(list1)
+#print(list1)
 
 #Clear the list
 #clear() emmpties the list
 
 list2.clear()
-print(list2)
-help
+#print(list2)
+#help
 
 #loops list
-for p in list1:
-    print(p)
+#for p in list1:
+    #print(p)
+
+
+list4 = ['Messi', "Ronaldo", "Fernades", "Etoo"]
+#for i in range(len(list4)):
+    #print(list4[i])
+
+
+#Using a while loop to go through a List
+#i = 0
+#while i < len(list4):
+    #print(list4[i])
+    #i = i+1
+
+#Looping using List Comprehension
+#[print(x) for x in list4]
+
+##sorting list aphanumerically
+list4.sort()
+print(list4)
+
+list5 = [2, 45, 100, 30, 10, 4, 7]
+list5.sort(reverse=True)
+print(list5)
+
+combineList = list1 + list4
+print(combineList)
