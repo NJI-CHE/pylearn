@@ -51,3 +51,4 @@ for article in pan.articles:
 prix_total = pan.Cal_total()
 print("Total Quantity: ", prix_total)
 
+#Finished
